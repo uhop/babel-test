@@ -1,0 +1,22 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "Tesing classes with Babel.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "babel src/ -d lib/",
+    "start": "serve"
+  },
+  "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "custom-elements-polyfill": "github:clubajax/custom-elements-polyfill",
+    "dcl": "^2.0.5",
+    "dcl6": "github:uhop/dcl6",
+    "document-register-element": "^1.6.2",
+    "serve": "^6.0.3"
+  }
+}
