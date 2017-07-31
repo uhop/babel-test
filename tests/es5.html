@@ -3,7 +3,9 @@
   <head>
     <title>Testing ES5 component</title>
     <link rel="stylesheet" href="./hello-world.css">
+	<script>customElements.forcePolyfill = true;</script> <!-- doesn't work -->
 	<script src="../node_modules/custom-elements-polyfill/index.js"></script>
+	<script src="../node_modules/dcl6/dist/dcl.js"></script>
     <script src="../lib/hello-world.js"></script>
   </head>
   <body>
